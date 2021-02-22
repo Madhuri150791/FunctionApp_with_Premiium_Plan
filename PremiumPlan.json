@@ -4,7 +4,7 @@
     "parameters": {
       "resourceNamePrefix": {
         "type": "string",
-        "defaultValue": "cvsftdout",
+        "defaultValue": "ftdout",
 		"minLength" : 3,
 		"maxLength" : 10,
         "metadata": {
@@ -176,14 +176,14 @@
       },
       "policyName": {
         "type": "string",
-        "defaultValue": "CVS-ACP",
+        "defaultValue": "FTD-ACP",
         "metadata": {
             "description": "Security Policy Name created in FMC"
         }
       },
       "deviceGroupName": {
         "type": "string",
-        "defaultValue": "CVS-AS-OUT",
+        "defaultValue": "Device-AS-OUT",
         "metadata": {
             "description": "Device group name created in FMC"
         }
