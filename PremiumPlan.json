@@ -156,7 +156,7 @@
         "type": "string",
         "defaultValue": "1.1.1.1",
         "metadata": {
-            "description": "FMC Public IP Address"
+            "description": "FMC Private IP Address which is reachable from Internal Network"
         }
       },
       "fmcUserName": {
@@ -386,7 +386,7 @@
                {
                   "name": "Allow-All",
                   "properties": {
-                     "description": "Allow SSH",
+                     "description": "Allow All",
                      "protocol": "Tcp",
                      "sourcePortRange": "*",
                      "destinationPortRange": "*",
