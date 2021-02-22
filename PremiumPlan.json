@@ -97,9 +97,10 @@
       },
       "softwareVersion": {
         "type": "string",
-        "defaultValue": "66090.0.0",
+       "defaultValue": "66191.0.0",
         "allowedValues": [
-		    "66090.0.0",
+            "66191.0.0",
+        "66090.0.0",
             "650115.0.0",
             "640110.0.0"
         ],
